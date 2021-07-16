@@ -184,6 +184,13 @@
     background-position: center;
 }
 
+.p-6 {
+    height: 100vh;
+    background-image: url('/images/david-marioni-0i1xsbXMPGY-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 .row {
     height: 100%; 
 }
