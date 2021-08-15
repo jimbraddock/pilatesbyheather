@@ -1,3 +1,300 @@
+/* Hero Section of Pilates by Heather Begins */
+.p-5 {
+    height: 100vh;
+    background-image: url('/images/IMG_4023.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    height: 100%; 
+}
+/* Hero Section of Pilates by Heather Ends */
+
+/* Heather Darge Bio Begins */
+body {
+    background: #080808;
+    background: linear-gradient(to right, #080808, #808080)
+    }
+.card-deck {
+    padding: 30px;
+    margin-left: 20px;
+    background: #080808;
+    background: linear-gradient(to right, #080808, #808080);
+    }
+.card-body {
+    display: flex;
+    flex-direction:column;
+    }
+.h1 {
+    color: #f2f2f2
+    }
+.btn-primary1 {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    }
+.btn-primary1:hover {
+    color: #fff
+    }
+.card-body {
+    display: flex;
+    flex-direction:column;
+    }
+.btn {
+    margin-top: auto;
+    border-radius: .5rem;
+    font-size: 20px;
+    }
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+/* Heather Darge Bio Ends */
+
+/* Pilates by Heather Class Cards Begin */
+.card-deck {
+    background: #080808;
+    background: linear-gradient(to right, #080808, #808080);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.btn-primary1 {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+.btn-primary1:hover {
+    color: #fff
+}
+.card-body {
+    display: flex;
+    flex-direction:column;
+}
+.btn {
+    margin-top: auto;
+    border-radius: .5rem;
+}
+/* Pilates by Heather Class Cards End */
+
+/* Apparel Images Begin */
+
+.bf2-jumbotron {
+    height: 100vh;
+    background-image: url('/images/jimsageapparel1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bf-jumbotron {
+    height: 100vh;
+    background-image: url('/images/jimapparel.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bf1-jumbotron {
+    height: 100vh;
+    background-image: url('/images/jimapparel1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Apparel Images End */
+
+/* Footer Begins */
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+.site-footer hr.small {
+    margin: 20px 0;
+}
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+.site-footer a {
+    color: #737373;
+}
+.site-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-links li {
+    display: block;
+}
+.footer-links a {
+    color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links.inline li {
+    display: inline-block;
+}
+.site-footer .social-icons {
+    text-align: right;
+}
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+}
+.copyright-text {
+    margin: 0;
+}
+@media (max-width: 991px) {
+    .site-footer [class^='col-'] {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .site-footer {
+        padding-bottom: 0;
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center;
+    }
+}
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #000000;
+    background-color: #fff;
+}
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+}
+@media (max-width: 767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600;
+    }
+}
+.site-footer {
+    padding: 10px;
+}
+
+/* Footer Ends */
+
+/* Team Members Begins */
+
+section {
+    padding: 10px 0;
+}
+section .section-title {
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+/* Team Members Ends */
+
+/* Scaling for Devices Begins */
+
+/* Small devices  (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px){    
+}
+
+/* Scaling for Devies Ends */
+
 /* Hamburger Menu Animation Begins */
 /* Icon 1 */
 
@@ -175,354 +472,9 @@
 
 /* Hamburger Menu Animation Ends */
 
-/* Image of Braddock Fitness on Landing Page Begins */
+/* Responsive Jumbotron Image on Home Screen Code Begins */
 
-.p-5 {
-    height: 100vh;
-    background-image: url('/images/heatherMain.jpg');
-    background-size: cover;
-    background-position: center;
-}
 
-.p-6 {
-    height: 100vh;
-    background-image: url('/images/david-marioni-0i1xsbXMPGY-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
-}
 
-.row {
-    height: 100%; 
-}
+/* Responsive Jumbotron Image on Home Screen Code Ends */
 
-.primary-heading {
-    color: #e6eaeb;
-    text-transform: uppercase;
-    backface-visibility: hidden;
-    margin-bottom: 30px;
-}
-
-.primary-heading--main {
-    display: block;
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 15px;
-    animation-name: slideInUp;
-    animation-duration: 3s;
-    animation-timing-function: ease-out;
-}
-
-.header__text-box {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center; 
-}
-
-@keyframes slideInUp {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem); }
-  /* will not use bounce | custom option
-    80% {
-        transform: translateX(-2rem);
-    }
-    */
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
-
-/* Image of Braddock Fitness on Landing Page Ends */
-
-/* Class sesction Begins */
-
-section.classes {
-        background: #080808;
-        background: linear-gradient(to right, #080808, #808080);
-        }
-
-        .classes .card {
-        border: none;
-        border-radius: 1rem;
-        transition: all 0.2s;
-        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-        }
-
-        .classes hr {
-            margin: 1.5rem 0;
-        }
-
-        .classes .card-title {
-            margin: 0.5rem 0;
-            font-size: 0.9rem;
-            letter-spacing: .1rem;
-            font-weight: bold;
-        }
-
-        .classes .card-price {
-            font-size: 3rem;
-            margin: 0;
-        }
-
-        .classes .card-price .period {
-            font-size: 0.8rem;
-        }
-
-        .classes ul li {
-            margin-bottom: 1rem;
-        }
-
-        .classes .text-muted {
-            opacity: 0.7;
-        }
-
-        .classes .btn {
-            font-size: 80%;
-            border-radius: .5rem;
-            letter-spacing: .1rem;
-            font-weight: bold;
-            padding: 1rem;
-            opacity: 0.7;
-            transition: all 0.2s;
-        }
-        @media (min-width: 992px) {
-        .classes .card:hover {
-            margin-top: -.25rem;
-            margin-bottom: .25rem;
-            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-        }
-        .classes .card:hover .btn {
-            opacity: 1;
-        }
-        } 
-        section {
-            min-height: 100vh;
-        }
-
-/* Class Section Ends */
-
-/* Testimonial Section Begins */
-
-.story__content {
-    grid-column: col-start 5 / full end;
-    padding: 60px 8vw;
-    /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    */
-
-    display: grid;
-    align-content: center;
-    justify-items: start;
-}
-
-.heading-2 {
-    font-size: 40px;
-    font-style: italic;
-    line-height: 1;
-}
-
-.heading-3 {
-    font-size: 16px;
-    color: #33353d;
-    text-transform: uppercase;
-}
-
-.story__text {
-    font-size: 15px;
-    font-style: italic;
-    margin-bottom: 40px;
-}
-
-.story__pictures {
-    grid-column: full-start / col-end 4;
-    background-image: url(/images/pilatesByHeather2.mov);
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.story__img--1 {
-    width: 100%;
-    grid-row: 2 / 6;
-    grid-column: 2 / 6;
-    align-items: center;
-    box-shadow: 0 20px 50px rgba(#000, .1);
-}
-
-/* Footer Begins */
-
-.site-footer {
-    background-color: #26272b;
-    padding: 45px 0 20px;
-    font-size: 15px;
-    line-height: 24px;
-    color: #737373;
-}
-.site-footer hr {
-    border-top-color: #bbb;
-    opacity: 0.5;
-}
-.site-footer hr.small {
-    margin: 20px 0;
-}
-.site-footer h6 {
-    color: #fff;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-top: 5px;
-    letter-spacing: 2px;
-}
-.site-footer a {
-    color: #737373;
-}
-.site-footer a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-.footer-links {
-    padding-left: 0;
-    list-style: none;
-}
-.footer-links li {
-    display: block;
-}
-.footer-links a {
-    color: #737373;
-}
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-.footer-links.inline li {
-    display: inline-block;
-}
-.site-footer .social-icons {
-    text-align: right;
-}
-.site-footer .social-icons a {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: 6px;
-    margin-right: 0;
-    border-radius: 100%;
-    background-color: #33353d;
-}
-.copyright-text {
-    margin: 0;
-}
-@media (max-width: 991px) {
-    .site-footer [class^='col-'] {
-        margin-bottom: 30px;
-    }
-}
-@media (max-width: 767px) {
-    .site-footer {
-        padding-bottom: 0;
-    }
-    .site-footer .copyright-text,
-    .site-footer .social-icons {
-        text-align: center;
-    }
-}
-.social-icons {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-.social-icons li {
-    display: inline-block;
-    margin-bottom: 4px;
-}
-.social-icons li.title {
-    margin-right: 15px;
-    text-transform: uppercase;
-    color: #96a2b2;
-    font-weight: 700;
-    font-size: 13px;
-}
-.social-icons a {
-    background-color: #eceeef;
-    color: #818a91;
-    font-size: 16px;
-    display: inline-block;
-    line-height: 44px;
-    width: 44px;
-    height: 44px;
-    text-align: center;
-    margin-right: 8px;
-    border-radius: 100%;
-    -webkit-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
-    color: #000000;
-    background-color: #fff;
-}
-.social-icons.size-sm a {
-    line-height: 34px;
-    height: 34px;
-    width: 34px;
-    font-size: 14px;
-}
-@media (max-width: 767px) {
-    .social-icons li.title {
-        display: block;
-        margin-right: 0;
-        font-weight: 600;
-    }
-}
-.site-footer {
-    padding: 10px;
-}
-
-/* Footer Ends */
-
-/* Scaling for Devices Begins */
-
-/* Small devices  (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1400px and up) */
-@media only screen and (min-width: 1400px){    
-}
-
-/* Scaling for Devies Ends */
