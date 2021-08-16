@@ -10,7 +10,6 @@
     height: 100%; 
 }
 /* Hero Section of Pilates by Heather Ends */
-
 /* Heather Darge Bio Begins */
 body {
     background: #080808;
@@ -52,7 +51,6 @@ body {
     margin-right: auto;
     }
 /* Heather Darge Bio Ends */
-
 /* Pilates by Heather Class Cards Begin */
 .card-deck {
     background: #080808;
@@ -79,32 +77,81 @@ body {
     border-radius: .5rem;
 }
 /* Pilates by Heather Class Cards End */
-
-/* Apparel Images Begin */
-
-.bf2-jumbotron {
-    height: 100vh;
-    background-image: url('/images/jimsageapparel1.jpg');
-    background-size: cover;
-    background-position: center;
+/* Testimonial Section Begins */
+section.testimonial {
+    background: #080808;
+    background: linear-gradient(to right, #080808, #808080);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
-.bf-jumbotron {
-    height: 100vh;
-    background-image: url('/images/jimapparel.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.bf1-jumbotron {
-    height: 100vh;
-    background-image: url('/images/jimapparel1.jpg');
-    background-size: cover;
-    background-position: center;
-}
+/* Testimonial Section Ends */
+/* Pilates by Heather Pricing Cards Begins */
+section.pricing {
+    background: #080808;
+    background: linear-gradient(to right, #080808, #808080);
+    }
 
-/* Apparel Images End */
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
 
+.pricing hr {
+    margin: 1.5rem 0;
+    }
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    }
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+    }
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+    }
+
+.pricing ul li {
+    margin-bottom: 1rem;
+    }
+
+.pricing .text-muted {
+    opacity: 0.7;
+    }
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: .5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+    }
+@media (min-width: 992px) {
+.pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+        }
+.pricing .card:hover .btn {
+    opacity: 1;
+        }
+    } 
+section {
+    min-height: 100vh;
+    }
+/* Pilates by Heather Pricing Cards Ends */
 /* Footer Begins */
-
 .site-footer {
     background-color: #26272b;
     padding: 45px 0 20px;
@@ -234,27 +281,7 @@ body {
 .site-footer {
     padding: 10px;
 }
-
 /* Footer Ends */
-
-/* Team Members Begins */
-
-section {
-    padding: 10px 0;
-}
-section .section-title {
-    text-align: center;
-    color: #1a1a1a;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-}
-#team .card {
-    border: none;
-    background: #ffffff;
-}
-
-/* Team Members Ends */
-
 /* Scaling for Devices Begins */
 
 /* Small devices  (landscape phones, 576px and up) */
@@ -292,12 +319,9 @@ section .section-title {
 /* Extra large devices (large laptops and desktops, 1400px and up) */
 @media only screen and (min-width: 1400px){    
 }
-
 /* Scaling for Devies Ends */
-
 /* Hamburger Menu Animation Begins */
 /* Icon 1 */
-
 .animated-icon1,
 .animated-icon2,
 .animated-icon3 {
@@ -379,9 +403,7 @@ section .section-title {
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
-
 /* Icon 2 */
-
 .animated-icon2 span:nth-child(1) {
     top: 0px;
 }
@@ -420,9 +442,7 @@ section .section-title {
     width: 0%;
     left: 50%;
 }
-
 /* Icon 3 */
-
 .animated-icon3 span:nth-child(1) {
     top: 0px;
     -webkit-transform-origin: left center;
@@ -469,12 +489,6 @@ section .section-title {
     top: 21px;
     left: 8px;
 }
-
 /* Hamburger Menu Animation Ends */
 
-/* Responsive Jumbotron Image on Home Screen Code Begins */
-
-
-
-/* Responsive Jumbotron Image on Home Screen Code Ends */
 
