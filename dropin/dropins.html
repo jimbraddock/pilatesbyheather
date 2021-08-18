@@ -37,19 +37,14 @@
         <title>Pilates by Heather</title>
 
         <style>
-            .card-body {
-              align-items: center;
+            .container {
+                color: #000;
             }
-            .card-title {
-              color: #fff
+            .btn {
+                color:#fff;
             }
-            .card {
-              background: #080808;
-              background: linear-gradient(to right, #080808, #808080);
-              padding-top: 50px;
-              padding-bottom: 50px;
-              padding-right: 20px;
-              padding-left: 20px;
+            .btn:hover {
+                color: #fff;
             }
             .site-footer a:hover {
                 color: #fff;
@@ -150,9 +145,6 @@
                 font-weight: 600;
             }
             }  
-            .list-group-item {
-              word-spacing: 100px;
-            }
         </style>
     </head>
 
@@ -190,7 +182,7 @@
           <li class="nav-item">
             <a
               class="nav-link"
-              href="../index.html"
+              href="#heather"
               role="button"
               aria-haspopup="true"
               aria-expanded="false"
@@ -202,7 +194,7 @@
           <li class="nav-item">
             <a
               class="nav-link"
-              href="../index.html"
+              href="#contact"
               role="button"
               aria-haspopup="true"
               aria-expanded="false"
@@ -214,7 +206,7 @@
         <li class="nav-item">
           <a
             class="nav-link"
-            href="../index.html"
+            href="#pricing"
             role="button"
             aria-haspopup="true"
             aria-expanded="false"
@@ -226,7 +218,7 @@
         <li class="nav-item">
           <a
             class="nav-link"
-            href="../index.html"
+            href="#gallery"
             role="button"
             aria-haspopup="true"
             aria-expanded="false"
@@ -240,30 +232,41 @@
         <!-- End Desktop Content -->
       </nav>
         <!-- End Navbar -->
-<div class="card" style="max-width: 2000px;">
-  <img src="../images/heatherLogo.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title text-center">HOURS OF OPERATION</h5>
-    <p class="card-text"></p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">MONDAY <td class="opens">07:00</td><td>-</td><td class="closes">09:00</td></li>
-    <li class="list-group-item">TUESDAY <td class="opens">07:00</td><td>-</td><td class="closes">12:00</td></li>
-    <li class="list-group-item">WEDNESDAY <td class="opens">07:00</td><td>-</td><td class="closes">09:00</td></li>
-    <li class="list-group-item">THURSDAY <td class="opens">07:00</td><td>-</td><td class="closes">12:00</td></li>
-    <li class="list-group-item">FRIDAY <td class="opens">07:00</td><td>-</td><td class="closes">10:00</td></li>
-    <li class="list-group-item">SATURDAY <td>Closed</td></li>
-    <li class="list-group-item">SUNDAY <td>Closed</td></li>
-  </ul>
-  <div class="card-body">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.004379805994!2d-95.68894075754585!3d29.92619263659209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d661b7f95f03%3A0x7c230ff7c5ca2eb8!2sThe%20Lakehouse%20at%20Towne%20Lake!5e0!3m2!1sen!2sus!4v1629253586820!5m2!1sen!2sus" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-</div>
-
-
-
-
-
+        <!-- Pricing Section Begins -->
+        <section class="pricing py-5">
+            <div id="pricing" class="container">
+                <div class="row justify-content-center align-content-center">
+        <!-- 4 Session Class Pack -->
+                    <div class="col-lg-4">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h6 class="card-title text-uppercase text-center">Pilates by Heather</h6>
+                                <h3 class="card-title text-muted text-center">Dropping In</h3>
+                                <h6 class="card-price text-center">$45<span class="period">/hr</span></h6>
+                                <hr>
+                                <h6 class="card-title text-uppercase text-center"></h6>
+                                <h3 class="card-title text-muted text-center">Private  Sessions</h3>
+                                <h6 class="card-price text-center">$90<span class="period">/hr</span></h6>
+                                <ul class="fa-ul">
+                                    <hr>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Client Consultation</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Customized Personal Training</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Beginner | Advanced Levels</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span></li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span></li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>60 min sessions</strong></li>
+                                </ul>
+                                <a 
+                                    href="mailto:heatherdarge@hotmail.com?subject=Consultation" 
+                                    class="btn btn-block btn-dark text-uppercase">Sign Up
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Section Ends -->
         <!-- Site Footer -->
       <footer class="site-footer">
         <!-- Footer Top -->
@@ -303,7 +306,7 @@
             <h6><em><i>Dropping In?</i></em></h6>
             <ul class="c-footer-links">
               <li>
-                <a href="../dropin/dropins.html">Sign Up</a>
+                <a href="dropin/dropins.html">Sign Up</a>
               </li> 
               <li>
                   <a href=""></a>
@@ -368,7 +371,7 @@
         <!-- Pilates by Heather JS -->
     <script 
         type="text/javascript" 
-        src="../js/main.js">
+        src="js/main.js">
     </script>     
         <!-- Bootstrap JS -->
     <script
